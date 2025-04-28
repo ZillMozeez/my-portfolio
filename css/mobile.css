@@ -38,7 +38,7 @@
         max-width: 100%;
     }
 
-    .home .home-img-top::before {
+    /* .home .home-img-top::before {
         content: '';
         position: absolute;
         height: 70px;
@@ -58,14 +58,13 @@
         bottom: 340px;
         border-bottom: 10px solid var(--skin-color); 
         border-right: 10px solid var(--skin-color); 
-    }
+    } */
 
     .home .home-img-top img {
         display: block;
         height: 200px;
         border-radius: 7px;
         margin-bottom: 30px;
-        margin-left: 25px;
     }
 
     .home .home-img {
