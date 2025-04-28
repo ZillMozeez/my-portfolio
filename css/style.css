@@ -342,6 +342,10 @@ h3.my-profession {
     border-radius: 5px;
 }
 
+.home .home-img-top img {
+    display: none;
+}
+
 /* ABOUT SECTION */
 .about .about-content {
     flex: 0 0 100%;
@@ -739,4 +743,11 @@ h3.my-profession {
     padding: 0 50px;
     background-color: var(--skin-color);
     color: #f7f7f7;
+}
+
+.footer {
+    background-color: var(--text-black-900);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
 }
