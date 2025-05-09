@@ -61,13 +61,30 @@
     } */
 
     .home .home-img-top img {
-        display: none;
-        /* height: 200px;
+        display: block;
+        height: 200px;
         border-radius: 7px;
-        margin-bottom: 30px; */
+        margin-bottom: 30px;
     }
 
     .home .home-img {
+        display: none;
+    }
+    .personal-info {
+        display: none;
+    }
+    .buttons {
+        margin-top: 20px;
+    }
+    .buttons .btn {
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px 20px;
+    }
+    .buttons .btn.hire-me {
+        margin-left: 20px;
+    }
+    .experience {
         display: none;
     }
 
@@ -90,5 +107,22 @@
     .contact #contact-form .col-6 {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .personal-info {
+        display: none;
+    }
+    .buttons {
+        margin-top: 20px;
+    }
+    .buttons .btn {
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px 20px;
+    }
+    .buttons .btn.hire-me {
+        margin-left: 20px;
+    }
+    .experience {
+        display: none;
     }
 }
