@@ -375,10 +375,11 @@ h3.my-profession {
 }
 
 .about .about-content .personal-info {
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex-direction: column;
+    max-width: 100%;
     margin-top: 40px;
 }
+
 
 .about .about-content .personal-info .info-item {
     flex: 0 0 50%;
