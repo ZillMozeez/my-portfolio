@@ -125,4 +125,7 @@
     .experience {
         display: none;
     }
+    .footer {
+        font-size: 13px;
+    }
 }
