@@ -81,6 +81,9 @@
         font-weight: 600;
         padding: 10px 20px;
     }
+    .buttons .btn.resume {
+        margin-left: 15px;
+    }
     .buttons .btn.hire-me {
         margin-left: 20px;
     }
@@ -109,7 +112,6 @@
         max-width: 100%;
     }
     .contact .contact-info-item p a {
-        text-decoration: none;
         color: #333;
     }
     .personal-info {
