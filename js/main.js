@@ -47,26 +47,6 @@ form.addEventListener('submit', (e) => {
 //         return false;
 // }
 
-// const btn = document.getElementById('button');
-
-// document.getElementById('form')
-//  .addEventListener('submit', function(event) {
-//    event.preventDefault();
-
-//    btn.value = 'Sending...';
-
-//    const serviceID = 'default_service';
-//    const templateID = 'template_56tn7xd';
-
-//    emailjs.sendForm(serviceID, templateID, this)
-//     .then(() => {
-//       btn.value = 'Send Email';
-//       alert('Sent!');
-//     }, (err) => {
-//       btn.value = 'Send Email';
-//       alert(JSON.stringify(err));
-//     });
-// });
 
 function sendMail(){
     let params = {
@@ -75,17 +55,6 @@ function sendMail(){
         subject : document.getElementById("subject").value,
         message : document.getElementById("message").value
     }
-    emailjs.send("service_dmxse6z", "template_ud8lsjn", params).then(alert("Email sent!"))
-    // const serviceID = "service_ldxz9j1";
-    // const templateID = "template_56tn7xd";
+    emailjs.send("service_dmxse6z", "template_ud8lsjn", params).then(alert("Message sent!"))
     
-    // emailjs.send(serviceID, templateID, params)
-    // .then((res) => {
-    //         document.getElementById("name").value = "";
-    //         document.getElementById("email").value = "";
-    //         document.getElementById("message").value = "";
-    //         console.log(res);
-    //         alert("Message sent successfully!");
-    //     })
-    //     .catch((err)=>console.log(err))
 }
