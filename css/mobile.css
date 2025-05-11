@@ -108,6 +108,9 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .contact .contact-info-item p a {
+        text-decoration: none;
+    }
     .personal-info {
         display: none;
     }
