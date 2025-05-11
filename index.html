@@ -18,7 +18,12 @@
     <link rel="stylesheet" href="css/style-switcher.css">
     <!-- === GOOGLE FONT === -->
      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-
+    <!-- === JS === -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+    emailjs.init('nuqKT-A0sb4HM8AeJ')
+    </script>
 </head>
 <body class="dark">
     <!-- ===== MAIN CONTAINER ===== -->
@@ -435,7 +440,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="form-item col-12 padd-15">
-                                        <button type="submit" class="btn">Send Message</button>
+                                        <button type="submit" class="btn" id="button" onclick="sendForm()">Send Message</button>
                                     </div>
                                 </div>
                             </div>

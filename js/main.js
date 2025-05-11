@@ -46,3 +46,35 @@ form.addEventListener('submit', (e) => {
 //         alert("Email is required");
 //         return false;
 // }
+
+// const btn = document.getElementById('button');
+
+// document.getElementById('form')
+//  .addEventListener('submit', function(event) {
+//    event.preventDefault();
+
+//    btn.value = 'Sending...';
+
+//    const serviceID = 'default_service';
+//    const templateID = 'template_56tn7xd';
+
+//    emailjs.sendForm(serviceID, templateID, this)
+//     .then(() => {
+//       btn.value = 'Send Email';
+//       alert('Sent!');
+//     }, (err) => {
+//       btn.value = 'Send Email';
+//       alert(JSON.stringify(err));
+//     });
+// });
+
+function sendForm(){
+    var params = {
+        from_name : document.getElementById("name").value,
+        email_id : document.getElementById("email").value,
+        message : document.getElementById("message").value
+    }
+    emailjs.send("service_ldxz9j1", "template_56tn7xd", params).then(function(res){
+        alert("Success! " + res.status);
+    })
+}
