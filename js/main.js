@@ -68,13 +68,24 @@ form.addEventListener('submit', (e) => {
 //     });
 // });
 
-function sendForm(){
-    var params = {
-        from_name: document.getElementById("name").value,
-        email_id: document.getElementById("email").value,
-        message: document.getElementById("message").value
+function sendMail(){
+    let params = {
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        subject : document.getElementById("subject").value,
+        message : document.getElementById("message").value
     }
-    emailjs.send("service_ldxz9j1", "template_56tn7xd", params).then(function(res){
-        alert("Success! " + res.status);
-    })
+    emailjs.send("service_dmxse6z", "template_ud8lsjn", params).then(alert("Email sent!"))
+    // const serviceID = "service_ldxz9j1";
+    // const templateID = "template_56tn7xd";
+    
+    // emailjs.send(serviceID, templateID, params)
+    // .then((res) => {
+    //         document.getElementById("name").value = "";
+    //         document.getElementById("email").value = "";
+    //         document.getElementById("message").value = "";
+    //         console.log(res);
+    //         alert("Message sent successfully!");
+    //     })
+    //     .catch((err)=>console.log(err))
 }
