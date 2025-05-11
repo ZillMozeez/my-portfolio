@@ -70,9 +70,9 @@ form.addEventListener('submit', (e) => {
 
 function sendForm(){
     var params = {
-        from_name : document.getElementById("name").value,
-        email_id : document.getElementById("email").value,
-        message : document.getElementById("message").value
+        from_name: document.getElementById("name").value,
+        email_id: document.getElementById("email").value,
+        message: document.getElementById("message").value
     }
     emailjs.send("service_ldxz9j1", "template_56tn7xd", params).then(function(res){
         alert("Success! " + res.status);
