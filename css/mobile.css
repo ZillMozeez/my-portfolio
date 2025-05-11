@@ -110,6 +110,7 @@
     }
     .contact .contact-info-item p a {
         text-decoration: none;
+        color: #333;
     }
     .personal-info {
         display: none;
