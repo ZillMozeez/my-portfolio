@@ -116,7 +116,7 @@
         display: none;
     }
     .buttons {
-        margin-top: 20px;
+        margin-top: 15px;
     }
     .buttons .btn {
         font-size: 16px;
@@ -124,7 +124,7 @@
         padding: 10px 20px;
     }
     .buttons .btn.resume {
-        margin-left: 15px;
+        margin-left: 10px;
     }
     .buttons .btn.hire-me {
         margin-left: 20px;
