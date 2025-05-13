@@ -404,11 +404,11 @@ h3.my-profession {
     color: #fff;
 }
 
-.about .about-content .personal-info .buttons {
-    margin-top: 30px;
+.about .about-content .buttons {
+    margin-top: 40px;
 }
 
-.about .about-content .personal-info .buttons .btn {
+.about .about-content .buttons .btn {
     margin-right: 15px;
     margin-top: 10px;
 }
