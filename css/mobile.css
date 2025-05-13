@@ -120,8 +120,8 @@
         font-weight: 600;
         padding: 10px 20px;
     }
-    .buttons .btn.resume {
-        margin-left: 10px;
+    .about .about-content .buttons .btn.resume {
+        margin-left: 5px;
     }
     .buttons .btn.hire-me {
         margin-left: 20px;
