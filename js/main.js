@@ -33,22 +33,8 @@ form.addEventListener('submit', (e) => {
         e.preventDefault();
         errorElement.innerText = messages.join(', ');
     }
-});
-
-// function validateForm(){
-//     let name = document.forms["form"]["name"].value;
-//     if(name === ""){
-//         alert("Name field is empty");
-//         return false;
-//     }
-
-//     let email = document.forms["form"]["email"].value;
-//         alert("Email is required");
-//         return false;
-// }
-
-
-function sendMail(){
+    
+    function sendMail(){
     let params = {
         name : document.getElementById("name").value,
         email : document.getElementById("email").value,
@@ -67,3 +53,18 @@ function sendMail(){
 
     emailjs.send("service_ldxz9j1", "template_ud8lsjn", params).then(alert("Message sent!"));
 }
+});
+
+// function validateForm(){
+//     let name = document.forms["form"]["name"].value;
+//     if(name === ""){
+//         alert("Name field is empty");
+//         return false;
+//     }
+
+//     let email = document.forms["form"]["email"].value;
+//         alert("Email is required");
+//         return false;
+// }
+
+
