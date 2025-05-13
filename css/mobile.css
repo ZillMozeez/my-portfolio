@@ -70,9 +70,6 @@
     .home .home-img {
         display: none;
     }
-    .personal-info {
-        display: none;
-    }
     .buttons {
         margin-top: 20px;
     }
@@ -115,7 +112,7 @@
     .personal-info {
         display: none;
     }
-    .buttons {
+    .about .about-content .buttons {
         margin-top: 15px;
     }
     .buttons .btn {
