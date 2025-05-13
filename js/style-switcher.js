@@ -9,19 +9,6 @@ window.addEventListener("scroll", () => {
         document.querySelector(".style-switcher").classList.remove("open");
     }
 })
-// === THEME COLORS
-// const alternateStyle = document.querySelectorAll(".alternate-style");
-// function setActiveStyle(color) {
-//     localStorage.setItem("color", color);
-//     changeColor();
-// }
-// function changeColor(){
-//     alternateStyle.forEach((style) => {
-//         if(localStorage.getItem("color") === style.getAttribute("title")) {
-//             style.removeAttribute("disabled");
-//         }
-//     })
-// }
 
 const alternateStyles = document.querySelectorAll(".alternate-style");
 function setActiveStyle(color) {
