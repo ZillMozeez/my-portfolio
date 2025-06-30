@@ -66,7 +66,6 @@
         border-radius: 7px;
         margin-bottom: 30px;
     }
-
     .home .home-img {
         display: none;
     }
@@ -78,14 +77,12 @@
         font-weight: 600;
         padding: 10px 20px;
     }
-    
     .buttons .btn.hire-me {
         margin-left: 20px;
     }
     .experience {
         display: none;
     }
-
     .service .service-item,
     .portfolio .portfolio-item,
     .contact .contact-info-item {
@@ -93,7 +90,6 @@
         max-width: 50%;
     }
 }   
-
 @media (max-width: 767px) {
     .aside {
     width: 100%;
@@ -107,28 +103,9 @@
     display: flex;
     z-index: 10;
 }
-
     .aside .nav {
-        display: flex;
+        display: none;
     }
-
-    .aside .logo {
-    /* position: absolute;
-    top: 50px; */
-    font-size: 15px;
-}
-
-.aside .logo a {
-    /* color: var(--bg-black-100); */
-    color: #fff;
-    font-weight: 600;
-    background: var(--skin-color);
-    padding: 10px 15px;
-    font-size: 10px;
-    letter-spacing: 5px;
-    position: relative;
-}
-
     .about .about-content .personal-info,
     .about .about-content .skills,
     .about .about-content .education,
