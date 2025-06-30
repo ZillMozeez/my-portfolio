@@ -63,7 +63,7 @@
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    border: 1px solid var(--skin-color);
+    /* border: 1px solid var(--skin-color); */
 }
 
 .style-switcher .color-1 {
@@ -71,5 +71,6 @@
 }
 
 .style-switcher .color-2 {
-    background: #37b182;
+    /* background: #37b182; */
+    background-color: #202B9E;
 }

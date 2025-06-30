@@ -1,11 +1,3 @@
-// === TYPING ANIMATION
-// var typed = new Typed(".typing", {
-//     strings:["Web Developer", "YouTuber"],
-//     typeSpeed:100,
-//     BackSpeed:60,
-//     loop:true
-// });
-
 // === FORM VALIDATION
 const name = document.getElementById('name');
 const email = document.getElementById('email');
@@ -34,36 +26,14 @@ form.addEventListener('submit', (e) => {
         errorElement.innerText = messages.join(', ');
     }
 });
-
-// function validateForm(){
-//     let name = document.forms["form"]["name"].value;
-//     if(name === ""){
-//         alert("Name field is empty");
-//         return false;
-//     }
-
-//     let email = document.forms["form"]["email"].value;
-//         alert("Email is required");
-//         return false;
-// }
-
-
+// ACTIVATE SEND MAIL NOTIFICATION
 function sendMail(){
     let params = {
         name : document.getElementById("name").value,
         email : document.getElementById("email").value,
         subject : document.getElementById("subject").value,
-        message : document.getElementById("message").value
-    };
-    // emailjs.send("service_ldxz9j1", "template_ud8lsjn", params)
-    // .then((response) => {
-    // alert("Message sent!");
-    // console.log("SUCCESS!", response.status, response.text);
-    // })
-    // .catch((error) => {
-    // alert("Failed to send message.");
-    // console.error("FAILED...", error);
-    // });
+        message : document.getElementById("message").value, 
+    }
 
-    emailjs.send("service_ldxz9j1", "template_ud8lsjn", params).then(alert("Message sent!"));
+    emailjs.send("service_ldxz9j1","template_ud8lsjn",params).then(alert("Message sent!"));
 }

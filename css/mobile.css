@@ -95,6 +95,24 @@
 }   
 
 @media (max-width: 767px) {
+    .aside {
+    width: 100%;
+    background: var(--bg-black-100);
+    position: fixed;
+    height: 30px;
+    padding: 30px;
+    left: 0;
+    top: 0;
+    /* border-right: 2px solid var(--bg-black-50); */
+    display: flex;
+    z-index: 10;
+}
+
+    .aside .nav {
+        display: flex;
+        
+    }
+
     .about .about-content .personal-info,
     .about .about-content .skills,
     .about .about-content .education,
