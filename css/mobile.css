@@ -95,13 +95,13 @@
     width: 100%;
     background: var(--bg-black-100);
     position: fixed;
-    height: 30px;
+    height: 200px;
     padding: 30px;
     left: 0;
     top: 0;
     /* border-right: 2px solid var(--bg-black-50); */
-    display: flex;
-    z-index: 10;
+    display: none;
+    /* z-index: 10; */
 }
     .aside .nav {
         display: flex;
@@ -121,6 +121,17 @@
     font-size: 12px;
     letter-spacing: 5px;
     position: relative;
+}
+.aside .nav li a {
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+    /* border-bottom: 2px solid var(--bg-black-50); */
+    color: var(--text-black-900);
+    padding: 5px 10px;
+}
+.aside .nav li a i {
+    margin-right: 5px;
 }
     .about .about-content .personal-info,
     .about .about-content .skills,
