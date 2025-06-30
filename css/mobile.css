@@ -110,8 +110,24 @@
 
     .aside .nav {
         display: flex;
-        
     }
+
+    .aside .logo {
+    /* position: absolute;
+    top: 50px; */
+    font-size: 15px;
+}
+
+.aside .logo a {
+    /* color: var(--bg-black-100); */
+    color: #fff;
+    font-weight: 600;
+    background: var(--skin-color);
+    padding: 10px 15px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: relative;
+}
 
     .about .about-content .personal-info,
     .about .about-content .skills,
