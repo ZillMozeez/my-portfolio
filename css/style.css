@@ -735,7 +735,7 @@ h3.my-profession {
     border: 1px solid var(--text-black-700);
     /* background-color: var(--bg-black-100); */
     background-color: #f7f7f7;
-    border: 0.01px solid #fa5b0f;
+    border: 0.01px solid #202B9E;
     font-size: 16px;
     color: var(--text-black-700);
     transition: all 0.3s ease;
